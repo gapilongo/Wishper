@@ -1,5 +1,5 @@
 playsound-1.2.2
-opanai-wishper
+opanai-whisper
 sounddevice
 openai
 pathlib
