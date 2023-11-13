@@ -28,7 +28,7 @@ def transcribe_audio(filename='output.wav'):
     return result['text']
 
 # Instantiate the OpenAI client with your API key
-Client = OpenAI(api_key="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")
+Client = OpenAI(api_key="Your OpenAI Key")
 
 # Function to convert text to speech and play it
 def text_to_speech_and_play(text, speech_file_path='response.mp3'):
