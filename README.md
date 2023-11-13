@@ -23,3 +23,24 @@ This repository contains a Python script that integrates various technologies to
 ## Setup and Usage
 
 1. **Install Dependencies:**
+- pip install -r requirements.txt
+3. **FFmpeg Setup:**
+- Download and extract FFmpeg.
+- Update the `ffmpeg_path` variable in the script with your FFmpeg bin directory path.
+
+3. **OpenAI API Key:**
+- Set your OpenAI API key in the script.
+
+4. **Running the Script:**
+- Python app.py
+
+The script will automatically record, transcribe, and respond to audio input.
+
+## License
+
+[MIT License](LICENSE)
+
+## Contributing
+
+Contributions are welcome. Please open an issue or submit a pull request with your suggestions.
+
